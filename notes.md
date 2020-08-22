@@ -18,4 +18,5 @@ Theoretically `xdotool` can do it, but it didn't work for me:
 
 * `qwerty` ``shift + space` did not produce a space
 * Disables `extend`'s xkb scrolling (falling back to grabbing `mod3 + {w,s}` and `xdotool click {4,5}` in sxhkd)
+    * This lets repeating work.
 * Stops redirecting `<ESC>` in `extend` since `<ESC>` is caps lock, and that is what it sends instead.

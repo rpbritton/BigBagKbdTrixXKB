@@ -479,13 +479,6 @@ xkb_symbols "lv5" {
                };  // <SPCE>
 //    key <CAPS> { [ NoSymbol,NoSymbol,NoSymbol,NoSymbol ] };  // CapsLock
 
-   key <RTRN> { symbols[Group1]=[ NoSymbol , NoSymbol , NoSymbol , NoSymbol ,
-                   XF86LaunchA          , XF86LaunchA           , // Launch
-                   XF86LaunchA          , XF86LaunchA          ], // Space
-                 actions[Group1]=[NoAction(),NoAction(),NoAction(),NoAction(),
-                   NoAction(),NoAction(),NoAction(),NoAction() ]
-               };  // <RTRN>
-
 // §§: XCV Cut/Copy/Paste seem OK in Firefox but not Gedit!? This seems to be a GTK weakness.
 //     Some bind fiddling in ~/.gtkrc-2.0 and ~/.config/gtk-3.0/gtk.css can get this working
 // ††: 'Pointer_'mousing needs enabling! Real KP_ keys work but not the Pointer_ mousing symbols
