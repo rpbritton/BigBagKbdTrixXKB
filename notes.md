@@ -6,9 +6,7 @@
 
 # Enabling mouse keys on an `ANSI` keyboard
 
-Since an `ANSI` keyboard does not have `<LSGT>` (key to the right of left-shift on `ISO`) and most laptop keyboards do not have number lock, it can be hard to enable mouse keys.
-
-Use this command to enable:
+Since an `ANSI` keyboard does not have `<LSGT>` (key to the right of left-shift on `ISO`) and most laptop keyboards do not have number lock, it can be hard to enable mouse keys. Use this command to enable:
 
 ```xkbset mousekeys```
 
